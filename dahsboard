@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <div class="headerTop">
+        <div class="searchIcon"></div>
+        <div class="searchbar"></div>
+        <div class="bell"></div>
+        <div class="profilePic"></div>
+        <div class="userName"></div>
+    </div>
+    <div class="headerBottom">
+    <div class="profilePic2"></div>
+    <div class="welcome">Hi there, Callum A'court (@callum)</div>
+    <div class="buttons">
+        <button>New</button>
+        <button>Upload</button>
+        <button>Share</button>
+    </div>
+    </div>
+    </div>
+
+    <div class="sidebarContainer">
+        <div class="DashboardTitle">Dashboard</div>
+        <div>Home</div>
+        <div>Profile</div>
+        <div>Messages</div>
+        <div>History</div>
+        <div>Tasks</div>
+        <div>Communities</div>
+        <div>Settings</div>
+        <div>Support</div>
+        <div>Privacy</div>
+    </div>
+
+    <div class="mainContent">
+        <div>Your Projects</div>
+        <div>Announcements</div>
+        <div class="cards">
+            <div>Super Cool Project</div>
+            <div>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pr</div>
+            <div>Less Cool Project</div>
+            <div>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem </div>
+        </div>
+    </div>
+</body>
+</html>

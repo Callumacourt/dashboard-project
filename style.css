@@ -1,0 +1,77 @@
+body{margin:0px;
+padding: 0px;}
+
+.body{display: grid;
+grid-template-columns: 1.5fr 7fr;
+grid-template-rows: 2fr 5fr;}
+
+.header{background-color:white;
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr}
+
+.headerContent{display:flex;
+justify-content:flex-start;
+align-items: center;
+font-size: 2.5vmin;
+font-weight: bold;}
+
+.search{display: flex;
+    gap: 3vmin;
+    align-items: center;
+width:55%;
+margin-left: 7vmin;}
+
+.icons{display: flex;
+width: 45%;
+align-items: center;
+justify-content: center;
+gap: 2.5vw;}
+
+.inv{width: 1px;}
+
+.sidebar{
+background-color:skyblue;
+grid-row: 1/4;
+height: 100vh;
+color: white;
+font-size: 4vmin;}
+
+.sidebarContent{display: grid;
+justify-content: center;
+row-gap: 50px;}
+
+.Dashboard{margin-bottom: 7vmin;
+    margin-top: 2vmin;
+    font-size: 5vmin;
+}
+
+.searchIcon{width:4vmin;
+height: auto;}
+
+.bellIcon{width: 4vmin;
+height: auto;}
+
+.profilePicSmall{height: 5vmin;
+border-radius: 100px;}
+
+.searchBar{background-color: lightgray;
+    opacity: 0.5;
+height: 3vmin;
+width:45vw;
+border-radius: 50px;}
+
+
+.searchBar{grid-column-start: 2;
+grid-column-end: 3;}
+
+
+
+.Communities{
+margin-bottom: 7vmin;}
+
+.mainContent{
+    background-color: lightgray;
+    grid-column-start: 2;
+    grid-row: 2/4;
+}
