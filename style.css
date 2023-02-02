@@ -26,7 +26,8 @@ margin-left: 7vmin;}
 width: 45%;
 align-items: center;
 justify-content: center;
-gap: 2.5vw;}
+gap: 2.5vw;
+flex-wrap: wrap;}
 
 .inv{width: 1px;}
 
@@ -54,6 +55,39 @@ height: auto;}
 
 .profilePicSmall{height: 5vmin;
 border-radius: 100px;}
+
+.profilePicLarge{height: 9vmin;
+border-radius: 250px;}
+
+.headerContentBottom{font-size: 2vmin;
+display: grid;
+grid-template-columns: 2fr 1fr;
+margin-bottom: 3vh;}
+
+.leftSide{display: flex;
+align-items: center;
+gap: 1vw;
+margin-left:3.5vw}
+
+#Name{font-weight: bold;
+font-size: 3vmin;}
+
+.buttons{display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin-right: 5vw;
+gap: 2.5vw;}
+
+button{font-size: 2vmin;
+    padding: 50px 150px;
+    border-radius: 100px;
+    background-color: skyblue;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover{cursor: pointer;}
 
 .searchBar{background-color: lightgray;
     opacity: 0.5;
