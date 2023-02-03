@@ -2,8 +2,8 @@ body{margin:0px;
 padding: 0px;}
 
 .body{display: grid;
-grid-template-columns: 1.5fr 7fr;
-grid-template-rows: 2fr 5fr;}
+grid-template-columns:7fr;
+grid-template-rows: 0.4fr 3fr;}
 
 .header{background-color:white;
 display: grid;
@@ -34,9 +34,11 @@ flex-wrap: wrap;}
 .sidebar{
 background-color:skyblue;
 grid-row: 1/4;
-height: 100vh;
+height: 100%;
+width:20vmin;
 color: white;
-font-size: 4vmin;}
+font-weight: bold;
+font-size: 3vmin;}
 
 .sidebarContent{display: grid;
 justify-content: center;
@@ -44,7 +46,7 @@ row-gap: 50px;}
 
 .Dashboard{margin-bottom: 7vmin;
     margin-top: 2vmin;
-    font-size: 5vmin;
+    font-size: 4vmin;
 }
 
 .searchIcon{width:4vmin;
@@ -108,4 +110,41 @@ margin-bottom: 7vmin;}
     background-color: lightgray;
     grid-column-start: 2;
     grid-row: 2/4;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    font-size: 1.5vmin;
+}
+
+.card{background-color: white;
+border-left: 20px solid orange;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+padding: 100px;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(900px,1fr));
+    grid-auto-rows: max-content;
+    column-gap: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 4vw;
+    row-gap: 1vw;
+}
+
+.title{font-weight: bold;
+font-size: 2vmin;}
+
+.rightSide{display: grid;
+grid-template-rows: 1fr 1fr;}
+
+.rightSide{display: grid;}
+
+@media only screen and (max-width: 3295px) {
+    #hide{
+        display: none !important;
+        color: red;
+    }
 }
